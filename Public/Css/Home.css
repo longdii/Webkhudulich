@@ -1,0 +1,172 @@
+.noidung{
+    margin: 50px 0;
+    
+}
+.noidung .content1{
+    width: 100%;
+    height: 100%;
+    background-image: url(http://localhost/WebKhuVuiChoi/Public/Images/homepage-bg-1.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+}
+.content1 .sub-content1{
+    margin: 0 11%;
+}
+.sub-content1 h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.11;
+    text-align: left;
+    color: #454545;
+    text-transform: uppercase;
+    max-width: 550px;
+    padding-bottom: 30px;
+}
+.sub-content1 >a{
+    font-size: 18px;
+    line-height: 1;
+    text-align: left;
+    color: #026fb5;
+}
+
+.sub-content1 >p{
+    padding: 30px 0;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+    color: #454545;
+    max-width: 500px;
+}
+
+.sub-content1 .yt-content{
+    display: flex;
+    justify-content: center;
+}
+.gt-content{
+    height: 264px;
+    width: 60%;
+    padding: 32px 40px 10px 40px;
+    background-color: #d5f3f8;
+    border-radius: 0 5px 5px 0;
+}
+.gt-content>p{
+    font-size: 16px;
+    line-height: 22px;
+    opacity: .8;
+    color: #454545;
+}
+.gt-content>a{
+    font-size: 16px;
+    opacity: .8;
+    color: #454545;
+    margin-top: 20px;
+    line-height: 50px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gt-content>a:hover{
+    color: #026fb5;
+}
+
+.sub-content1 .group{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.sub-content1 .group .form-group{
+    background: #dddddd;
+    margin: 20px;
+    max-width:  300px;
+    border-radius: 5px;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.sub-content1 .group .form-group:hover{
+    background: #b9e0f7;
+}
+.sub-content1 .group .form-group img{
+    height: 354px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.sub-content1 .group .form-group .title{
+    padding: 35px 40px 85px 25px;
+}
+.form-group .title .sub-content{
+    font-size: 16px;
+    font-weight: normal;
+    opacity: .8;
+    color: #454545;
+}
+.sub-content1 .form-group .title .sub-title{ 
+font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #026fb5;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.noidung .content2{
+    background-image: url(http://localhost/WebKhuVuiChoi/Public/Images/homepage-bg-3.png);
+    width: 100%;
+    height: fit-content;
+    background-position: left 5rem;
+    background-repeat: no-repeat;
+}
+.content2 .sub-content2{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+}
+.sub-content2 .group .form-group .title{
+padding: 10px;
+}
+.sub-content2 .group .form-group img{
+    width: 130px;
+    height: 130px;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+.sub-content2 .group .form-group:hover{
+    background: #3f88b2;
+}
+.sub-content2 .group .form-group{
+    background: #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 35px;
+}
+.sub-content2 .group .form-group a{
+    display: flex;
+    padding: 15px 0;
+}
+.bando-content .title,.tintuc-content .title{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #454545;
+    text-transform: uppercase;
+}
+.tintuc-content {
+    margin-left: 40px;
+}
+.tintuc-content .group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub-content2 .form-group .title .sub-title{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #454545;
+    text-transform: uppercase;
+}

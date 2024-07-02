@@ -1,0 +1,113 @@
+.aside{
+    margin-top: 40px;
+    
+}
+.aside h1{
+    font-size: 20px;
+    text-align: center;
+    color: #454545;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .aside a{
+    text-align: center;
+    color: #000;
+    align-items: center;
+ }
+ .sub-aside {
+    display: flex;
+    padding: 5px 0 20px 0;
+    align-items: center;
+    font-size: 15.5px;
+    justify-content: center;
+ }
+ .thanhmenu{
+  position: relative;
+  /* width: 200px; */
+ 
+ }
+ .thanhmenu:hover .menu_Trongha {
+  display: block;
+ }
+ .menu_Trongha{
+  display: none;
+  padding: 10px;
+  position: absolute;
+  background-color: rgb(243, 243, 243);
+  right: 7px;
+  top: 25px;
+  z-index: 1;
+  border-radius: 5px 5px 5px 5px;
+ }
+
+ .menu_chu{
+  margin-bottom: 8px;
+  color: #a80d0d;
+ }
+ .menu_chu:hover a{
+  color: rgb(243, 251, 255);
+ }
+ .sub-aside i{
+   font-size: 10px;  
+   margin: 0 6px;
+ }
+ .content_ctnh{
+   /* width: 1530px; */
+   background-color: #f1f5f7;
+   padding-top: 10px;
+   padding-bottom: 100px;
+ }
+ .content_ctnh-right{
+   display: flex;
+   justify-content: right;
+   width: 100%;
+
+   margin-bottom: 40px;
+ }
+ .content_hop{
+  transition: transform linear 0.1s;
+  will-change: transform;
+   border: 1px solid #cecece; /* Viền đơn màu đen */
+   border-radius: 10px; /* Bo viền với bán kính 10px */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 35px;
+   height: 490px;
+ }
+ .content_hop:hover{
+  background-color:rgb(225, 247, 255);
+  transform: translateY(-1px);
+ }
+ .content_img {
+   width: 100%;
+   height: 35%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ .content_hop h2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 15px;
+   margin-top: 15px;
+   color: #026fb5;
+   font-size: 30px;
+ }
+ .content_hop span{
+   color:#8b8b8b;
+   margin-left: 15px;
+ }
+ .content_hop_tt{
+   color:#8b8b8b;
+   margin-top: 5px;
+   display: flex;
+   position: relative;
+ }
+ .content_hop_tt i{
+   margin-left: 10px;
+ }
+ .content_hop p{
+
+   margin-left: 15px;
+   color:#474747;
+   width: 230px;
+   height: 100px;
+ }

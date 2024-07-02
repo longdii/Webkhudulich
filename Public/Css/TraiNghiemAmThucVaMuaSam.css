@@ -1,0 +1,81 @@
+.aside{
+    margin-top: 40px;
+}
+.aside h1{
+    font-size: 20px;
+    color: #454545;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub_aside{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 20px 0;
+    align-items: center;
+    font-size: 15.5px;
+}
+.sub_aside i{
+    font-size: 10px;  
+   margin: 0 6px;
+}
+.content_atvms{
+    background-color: #f1f5f7;   
+}
+.content_atvms_tieude{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.content_atvms_tieude h1{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #ffffff; */
+}
+.content_atvms_tieude_icon{
+    /* border-top: 3px double #dcdcdc; */
+    display: flex;
+    margin: 18px 0 15px 60px;
+    padding-top: 10px;
+    justify-content: left;
+  }
+  .content_atvms_tieude_icon_thich{
+    background-color:rgb(24 119 242);
+    padding: 0 5px 0 5px;
+    margin-right: 8px;
+    border-radius: 3px;
+  }
+  .content_atvms_tieude_icon_thich i{
+    color: #ffffff;
+  }
+.ke{
+    border-bottom: 3px solid;
+    margin-left: 60px;
+    color: #6171d4;
+    width: 95px;
+}
+.content_atvms_tieude_noidung{
+    margin: 20px 0 10px 60px;
+    text-align: left;
+    width: 91%;
+}
+.content_atvms_nhahang{
+    background-color: #ffffff; 
+    
+}
+.content_atvms_nhahang h2{
+padding: 20px 0 10px 60px;
+}
+.content_atvms_nhahang_thongtin{
+    margin-left: 60px;
+    height: 800px;
+}
+.content_atvms_nhahang_img{
+    margin: 15px 0 0 36px;
+    width: 84%;
+    height: 79%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

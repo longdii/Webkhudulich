@@ -1,0 +1,170 @@
+
+ #setion{
+   display: block;
+   text-align: justify;
+   margin-left: 150px;
+   margin-top: 20px;
+ }
+ .setion-title{
+   font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 20px;
+ }
+ .content{
+  display: flex;
+ }
+
+
+ .content .content-left{
+   max-width: 700px;
+   display: flex;
+flex-direction: column;
+
+ }
+ .content-left1,.content-left2{
+    padding: 16px 18px 25px 18px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+ }
+ .content-left1>p,.content-left2>p{
+   border-bottom: 0.1px dashed ;
+ }
+ .content-left1>p,.content-left2>p{
+   padding: 10px 0 20px 0;
+   font-size: 24px;
+   font-weight: bolder;
+ }
+ .sub-content-left1{
+display: flex;
+width: fit-content;
+flex-wrap: wrap;
+align-items: center;
+ }
+ .sub-content-left1 .left{
+   margin-right: 50px;
+ }
+
+ .form-group>p{
+   font-size: 16px;
+   padding: 20px 0 ;
+   font-weight: bolder;
+ } 
+ .content-left2 .form-group{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   min-width: 250px;
+ }
+ .content-left2 p{
+   font-family: "SunWorld-Regular", "sans-serif";
+   font-size: 18px;
+   margin-left: 10px;
+ }
+
+ .form-group>input{
+   padding: 10px 25px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   width: 300px;
+ }
+ .form-group>img{
+   width: 50px;
+   margin-left: -25px;
+ }
+ .content-right{
+   display: block;
+   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+   border-radius: 10px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+ }
+ .content-right .title{
+   background-color: rgb(150, 13, 13);
+   font-size: 24px;
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+ }
+ .content-right .form-group{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 20px;
+ }
+ .content-right .form-group-dichvu{
+  display: flex;
+}
+ .content-right .form-group-dichvu .left{
+   width: 60%;
+   text-align: left;
+ }
+ .content-right .form-group-dichvu .right{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+ .content-right #NSD, #dichvu, #giamgia{
+   border-bottom: 0.1px dashed ;
+ }
+ #dichvu{
+  padding: 10px 0;
+ }
+ #giamgia{
+   border-color: rgba(255, 166, 1, 0.851);
+ }
+ .magiamgia{
+   position: relative;
+   height: 42px;
+ }
+ .magiamgia input{
+   padding: 10px 25px;
+   margin: 0 20px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   width: 300px;
+   height: 42px;
+ }
+ .magiamgia>button{
+   border: 1px solid #b2b2b2;
+   position: absolute;
+   right: 15px;
+   top: 0;
+   background-color: #8F2624;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 13px;
+   font-weight: bold;
+   padding: 0 20px;
+   height: 42px;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+ .thanhtoan{
+  width: 300px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 10px;
+   display: block;
+   margin: 40px 20px;
+   text-align: center;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 16px;
+   cursor: pointer;
+ }
+ #xacnhan{
+   background-color: #8F2624;
+   color: #fff;
+
+ }
+ #quaylai{
+   background-color: #ecf0f1;
+   color: #000;
+ }
+

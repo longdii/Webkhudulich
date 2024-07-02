@@ -1,0 +1,62 @@
+.trainghiem{
+    margin-top: 60px;
+}
+.trainghiem h1{
+   font-size: 20px;
+   color: #454545;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 40px;
+}
+.next-trainghiem{
+   
+    justify-content: center;
+    padding: 5px 0 20px 0;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px 0;
+ }
+ .noidungtrainghiem{
+   display:flex;
+   flex-wrap:wrap ;
+   background-color:hsl(204, 24%, 92%);
+   padding: 40px 0;
+   justify-content: center;
+}
+.noidungtrainghiem  .thongtin h1{
+   /* text-align: center; */
+   font-size: 10px;
+   margin-right:150px;
+}
+.noidungtrainghiem .thongtin{
+   text-align: center;
+   margin-left: 130px;
+}
+.noidungtrainghiem img{
+   width:1200px;
+   height:500px;
+   text-align:center;
+   margin-right: 125px;
+   margin-top: 40px;
+}
+.noidungtrainghiem .form-trainghiem {
+  
+  
+  
+       background-color: #d9dbe5;
+       margin: 20px;
+       max-width: 270px;
+       min-height: 280px;
+       /* border: 1px solid #978e8e; */
+       border-radius: 0 0 8px 8px;
+       box-shadow: 0 0 20px 0 #695959;
+   
+}
+
+.noidungtrainghiem .form-trainghiem img{
+   margin-top: 0px;
+   margin-left: 0px;
+}
+.noidungtrainghiem .form-trainghiem .title{
+   font-size: 25px;
+   color:rgb(51, 76, 99)
+}

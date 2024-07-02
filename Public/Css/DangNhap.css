@@ -1,0 +1,66 @@
+
+ .noidung {
+   margin-bottom: 30px;
+ }
+ .noidung .bang{
+   margin: 30px 10%;
+    box-shadow: 0 0 20px 0 #cccccc80;
+    background: #fff;
+    display: flex;
+ }
+ .bang>img{
+   width: 50%;
+   height: 667px;
+   background-size: cover;
+ }
+ .sub-noidung  {
+   padding: 40px 100px 0px 100px;
+   text-align: left;
+   color: #303644;
+   width: 100%;
+ }
+ .sub-noidung>.title{
+   color: #303644;
+   font-size: 20px;
+   margin-bottom: 15px;
+ }
+ .title1{
+   color: #303644;
+   font-size: 50px;
+   margin-bottom: 15px;
+ }
+ .sub-noidung .form-group .title{
+   color: #303644;
+   font-size: 16px;
+   margin-bottom: 15px;
+ }
+ .sub-noidung .form-group>input{
+   border: 1px solid #ccc;
+   width: 100%;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #303644;
+    margin-bottom: 10px;
+ }
+ .item{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 25px;
+ }
+ .item a{
+   color: #303644;
+ }
+
+  #dangnhap{
+   font-size: 18px;   
+   width: 100%;
+   border: 0;
+   border-radius: 8px;
+   font-weight: 700;
+   padding: 20px 0;
+   background: #8F2624 ;
+   text-transform: uppercase;
+   color: #fff;
+   cursor: pointer;
+}
+

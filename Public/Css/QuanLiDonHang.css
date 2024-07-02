@@ -1,0 +1,76 @@
+.doashbox{
+  background-color: #ecf0f1;
+}
+.doashbox .sub-doashbox{
+  display: flex;
+  margin-left: 10%;
+}
+.sub-doashbox .form-doashbox{
+  padding:15px 0;
+  margin: 0 70px 0 0;
+  line-height: 100%;
+}
+
+.form-doashbox a{
+  color: #000;
+}
+
+.form-doashbox i{
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+ #quanlydonhang a, #quanlydonhang i{
+  color: #8F2624;
+  font-weight: bold;
+}
+
+#quanlydonhang {
+border-bottom: 3px solid #8F2624;
+}
+
+.noidung {
+    margin-bottom: 30px;
+  }
+  .noidung>.bang{
+    margin: 30px 10%;
+     box-shadow: 0 0 20px 0 #cccccc80;
+     background: #fff; 
+     min-height: 200px; 
+  }
+  .bang .sub-noidung{
+    padding: 30px;
+    background: #4bc6e4;
+  }
+  
+  .sub-noidung > .title{
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .noidung-product{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+  }
+  .product{
+    background: #f1f0f0;
+    border:1px solid #f1f0f0;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product>p,.noidung-product>p{
+    width: 20%;
+    text-align: center;
+  }
+
+ #title-product{
+  text-align: left;
+ }
+ #thanhtien{
+  text-align: right;
+  margin-right: 40px;
+ }

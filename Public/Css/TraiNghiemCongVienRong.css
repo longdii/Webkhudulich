@@ -1,0 +1,130 @@
+.aside{
+     margin-top: 60px;
+}
+.aside>h1{
+    font-size: 20px;
+    color: #454545;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+#cvrong{
+    position: relative;
+}
+.sub-trainghiem{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+top: 33%;
+right: 35%;
+box-shadow: 0 0 20px 0 #a8a8a8;
+background: #f1f5f7;
+padding: 20px 0 20px 10px;
+border-radius: 8px;
+}
+
+.sub-trainghiem a{
+    color: #504b4b;
+display: block;
+text-align: left;
+max-width: 250px;
+line-height: 1.5;
+padding: 5px ;
+}
+
+.next-aside{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 20px 0;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.next-aside :hover{
+    color: rgb(76, 122, 222);
+}
+.next-aside i{
+    font-size: 10px;
+    margin: 0 8px;
+}
+.next-aside>a{
+    color: #454545;
+}
+.noidung{
+    background-color: #f1f5f7;
+   padding-top: 10px;
+   padding-bottom: 100px;
+   justify-content: center;
+  
+   
+    /* background-color: #f1f5f7;
+    display:flex;
+    padding: 40px 0;
+    justify-content: center */
+}
+
+.content_cvr-right{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+ 
+    margin-bottom: 40px;
+  }
+
+/* .noidung .form-group{ */
+    /* background-color: #f1f5f7;
+    margin: 20px;
+    max-width: 270px;
+    min-height: 300px; */
+    /* border: 1px solid #978e8e; */
+    /* border-radius: 0 0 8px 8px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* box-shadow: 0 0 20px 0 #110e0e; */
+/* } */
+.content_hop{
+
+    border: 1px solid #cecece; /* Viền đơn màu đen */
+    border-radius: 10px; /* Bo viền với bán kính 10px */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 35px;
+    height: 490px;
+    width: 280px;
+  }
+  .content_hop span{
+    color:#8b8b8b;
+    margin-left: 15px;
+  }
+.content_date{
+    color:#8b8b8b;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+  .content_date i{
+    margin-left: 10px;
+  }
+.noidung .content_hop .content1{
+    margin-left: 12px;
+   color:#474747;
+   width: 250px;
+   height: 100px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}
+.content_hop img {
+    width: 100%;
+    height: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+.noidung .content_hop .title{
+    font-size: 35px;
+    color: #081377;
+    font-style: initial;
+    font-weight: 10px;
+}
+.noidung .content_hop :hover{
+    color: rgb(74, 126, 246);
+}
