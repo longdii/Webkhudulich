@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/DangKi.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/DangKi.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
     <title>Đăng Kí</title>
 </head>
 <body>
-<form action="http://localhost/WebKhuVuiChoi/dangki/themmoi" method="post">
+<form action="/WebKhuVuiChoi/dangki/themmoi" method="post">
         <div class="noidung">
             <div class="bang">
             <p class="title"><strong>Thành viên mới</strong></p>
@@ -31,7 +31,7 @@
                         <input id="dangki" type="submit" name="btndangki" value="Đăng Kí">
                         <div class="group-add">
                             <span>Đã có tài khoản</span>
-                            <a href="http://localhost/WebKhuVuiChoi/dangnhap">Đăng nhập</a>
+                            <a href="/WebKhuVuiChoi/dangnhap">Đăng nhập</a>
                         </div>
 
                     </div>
