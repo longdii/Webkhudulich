@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
-        href="http://localhost/Website_khu_vui_choi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/css/base.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/css/grid.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/css/reponsive.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/css/ve.css">
+        href="/Website_khu_vui_choi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/css/base.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/css/reponsive.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/css/ve.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <form action="http://localhost/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/timkiem" method="post">
+    <form action="/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/timkiem" method="post">
         <div class="header">
             <ul class="header-list">
                 <li class="header-item">
@@ -82,11 +82,11 @@
                     <td><div class="summarize"><?php echo $row['MoTa'] ?></div></td>
                     <td>
                         <a
-                            href="http://localhost/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/xoa/<?php echo $row['ID'] ?>"><i
+                            href="/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/xoa/<?php echo $row['ID'] ?>"><i
                                 class="content__table-icon fa-solid fa-trash"></i></a>
                         &nbsp;&nbsp;&nbsp;
                         <a
-                            href="http://localhost/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/sua/<?php echo $row['ID'] ?>"><i
+                            href="/WebKhuVuiChoi/TraiNghiemCongVienRong_admin/sua/<?php echo $row['ID'] ?>"><i
                                 class="content__table-icon fa-solid fa-pen-to-square"></i></a>
                     </td>
                 </tr>
