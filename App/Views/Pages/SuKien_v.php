@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/TinTucNoiBat.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/TinTucNoiBat.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
     <title> Sự Kiện - Sun World Ha Long</title>
     
   
@@ -39,7 +39,7 @@
                 <div class="col l-3">
                     <div class="content_hop">
                         <div class="content_img"
-                            style="background-image: url(http://localhost/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe']?>);">
+                            style="background-image: url(/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe']?>);">
                         </div>
                         <h2><?php echo $row['TieuDe']?><h2> 
                         <div class="content_hop_tt">
