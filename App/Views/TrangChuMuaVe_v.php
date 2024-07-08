@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"
-        href="http://localhost/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/base.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/reponsive.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/masterlayout_admin.css">
+        href="/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/base.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/reponsive.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/masterlayout_admin.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                             <i class="header__navbar-icon fa-solid fa-list"></i>
                         </li>
                         <li class="header__navbar-item">
-                            <a href="http://localhost/WebKhuVuiChoi/trainghiemtong">
+                            <a href="/WebKhuVuiChoi/trainghiemtong">
                                 <img src="https://ticket.sunworld.vn/wp-content/uploads/2022/04/SW_logo-new-HA-LONG-01.png"
                                     alt="Logo" class="header__navbar-img">
                             </a>
