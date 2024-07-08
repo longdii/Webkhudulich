@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/ThanhToan.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/ThanhToan.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/themify-icons/themify-icons.css">
     <title>Thanh Toán</title>
 </head>
 <body>
-    <form action="http://localhost/WebKhuVuiChoi/thanhtoan/xacnhan" method="post">
+    <form action="/WebKhuVuiChoi/thanhtoan/xacnhan" method="post">
          <div id="setion">
                 <div class="setion-title">
                     <p>HA LONG - NGÀY SỬ DỤNG: </p>
@@ -49,22 +49,22 @@
                             <div class="sub-content-left1">
                                <div class="left">
                                 <div class="form-group">
-                                    <img src="http://localhost/WebKhuVuiChoi/Public/Images/1.png" alt="">
+                                    <img src="/WebKhuVuiChoi/Public/Images/1.png" alt="">
                                     <p>Thanh toán quét mã <span style="color: red;">VN</span> <span style="color: blue;">PAY</span> <sup style="color: red;">QR</sup></p>
                                   </div>
 
                                   <div class="form-group">
-                                    <img src="http://localhost/WebKhuVuiChoi/Public/Images/2.png" alt="">
+                                    <img src="/WebKhuVuiChoi/Public/Images/2.png" alt="">
                                   <p>Thẻ ATM và tài khoản ngân hàng</p>
                                   </div>
                                 </div>
                                <div class="right">
                                 <div class="form-group">
-                                    <img src="http://localhost/WebKhuVuiChoi/Public/Images/4.png" alt="">
+                                    <img src="/WebKhuVuiChoi/Public/Images/4.png" alt="">
                               <p>Ví điện tử VNPAY</p>
                               </div>
                               <div class="form-group">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/3.png" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/3.png" alt="">
                                 <p>Thẻ thanh toán quốc tế</p>
                               </div>
                             </div>
