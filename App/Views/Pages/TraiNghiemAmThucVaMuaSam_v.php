@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/TraiNghiemAmThucVaMuaSam.css">
-    <link rel="stylesheet" href="http://localhost./WebKhuVuiChoi/Public/Css/TraiNghiemCapTreoNuHoang.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/TraiNghiemAmThucVaMuaSam.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/TraiNghiemCapTreoNuHoang.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
     <link rel="stylesheet"
-        href="http://localhost/Webkhuvuichoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+        href="/Webkhuvuichoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -17,22 +17,22 @@
     <div class="aside">
         <h1>Ẩm Thực Và Mua Sắm - Sun World Hạ Long</h1>
         <div class="sub_aside">
-            <a href="http://localhost/WebKhuVuiChoi/TrangChuNguoiDung">Trang chủ</a><i class="ti-angle-right"></i>
-            <a href="http://localhost/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a><i class="ti-angle-right"></i>
+            <a href="/WebKhuVuiChoi/TrangChuNguoiDung">Trang chủ</a><i class="ti-angle-right"></i>
+            <a href="/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a><i class="ti-angle-right"></i>
 
             <div class="thanhmenu">
                 <div style="padding: 5px;"><a href="">Ẩm thực và mua sắm</a> <i class="ti-angle-down"></i></div>
                 <div class="menu_Trongha">
-                    <div class="menu_chu"><a href="http://localhost/WebKhuVuiChoi/TraiNghiemCongVienNuoc">Công Viên
+                    <div class="menu_chu"><a href="/WebKhuVuiChoi/TraiNghiemCongVienNuoc">Công Viên
                             Nước</a></div>
-                    <div class="menu_chu"><a href="http://localhost/WebKhuVuiChoi/TraiNghiemCongVienRong">Công Viên
+                    <div class="menu_chu"><a href="/WebKhuVuiChoi/TraiNghiemCongVienRong">Công Viên
                             Rồng</a></div>
-                    <div class="menu_chu"><a href="http://localhost/WebKhuVuiChoi/TraiNghiemCapTreoNuHoang">Cáp Treo Nữ
+                    <div class="menu_chu"><a href="/WebKhuVuiChoi/TraiNghiemCapTreoNuHoang">Cáp Treo Nữ
                             Hoàngvà Khu Đồi Huyền Bí</a></div>
                     <div class="menu_chu"><a href="#">Bãi biển Sun World</a></div>
-                    <div class="menu_chu"><a href="http://localhost/WebKhuVuiChoi/TraiNghiemHaiDang">Hải Đăng Sun
+                    <div class="menu_chu"><a href="/WebKhuVuiChoi/TraiNghiemHaiDang">Hải Đăng Sun
                             World</a></div>
-                    <div class="menu_chu"><a href="http://localhost/WebKhuVuiChoi/TraiNghiemPhoCo">Kiosk Phố Cổ Sun
+                    <div class="menu_chu"><a href="/WebKhuVuiChoi/TraiNghiemPhoCo">Kiosk Phố Cổ Sun
                             World</a></div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                                 </i>
                             </span>
                         </div>
-                        <img src="http://localhost/WebKhuVuiChoi/Public/Images/captreo_img/banneramthuc.png" width="95%"
+                        <img src="/WebKhuVuiChoi/Public/Images/captreo_img/banneramthuc.png" width="95%"
                             alt="">
                         <div><span><i>Hạ Long nổi tiếng với hải sản tươi ngon được chế biến theo phong cách độc
                                     đáo</i></span>
@@ -101,7 +101,7 @@
                                     </b><?php echo $row['MoTaAmThuc'] ?></span>
                             </div>
                             <div class="content_atvms_nhahang_img"
-                                style="background-image: url(http://localhost/WebKhuVuiChoi/Public/Images/captreo_img/<?php echo $row['AnhAmThuc'] ?>);">
+                                style="background-image: url(/WebKhuVuiChoi/Public/Images/captreo_img/<?php echo $row['AnhAmThuc'] ?>);">
                             </div>
                         </div>
                     </div>
