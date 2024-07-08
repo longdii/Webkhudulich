@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
-        href="http://localhost/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/base.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/reponsive.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/ve.css">
+        href="/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/base.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/reponsive.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/ve.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
 
 <body>
     <!-- http://localhost/WebKhuVuiChoi/CapTreoNuHoang_c/themmoi -->
-    <form action="http://localhost/WebKhuVuiChoi/PhoCo_admin_c/themmoi" method="post">
+    <form action="/WebKhuVuiChoi/PhoCo_admin_c/themmoi" method="post">
         <div class="header">
             <ul class="header-list">
                 <li class="header-item">
