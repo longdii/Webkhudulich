@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/QuanLiDonHang.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/QuanLiDonHang.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
     <title>Quản Lý Đơn Hàng</title>
 </head>
 <body>
@@ -12,15 +12,15 @@
 <div class="sub-doashbox">
                 <div class="form-doashbox" id="thongtintaikhoan">
                     <i class="ti-user"></i>
-                    <a href="http://localhost/WebKhuVuiChoi/thongtintaikhoan">Thông Tin Tài Khoản</a>
+                    <a href="/WebKhuVuiChoi/thongtintaikhoan">Thông Tin Tài Khoản</a>
                 </div>
                 <div class="form-doashbox" id="quanlydonhang">
                     <i class="ti-shopping-cart"></i>
-                <a href="http://localhost/WebKhuVuiChoi/quanlydonhang">Quản Lý Đơn Hàng</a>
+                <a href="/WebKhuVuiChoi/quanlydonhang">Quản Lý Đơn Hàng</a>
                 </div>
                 <div class="form-doashbox">
                     <i class="ti-shift-right"></i>
-                    <a  href="http://localhost/WebKhuVuiChoi/dangnhap">Đăng Xuất</a>
+                    <a  href="/WebKhuVuiChoi/dangnhap">Đăng Xuất</a>
                 </div>
             </div>
         </div>
