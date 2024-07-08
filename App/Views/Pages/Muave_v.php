@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/base.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/reponsive.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/muave.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/base.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/reponsive.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/muave.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <form action="http://localhost/WebKhuVuiChoi/Muave_c/muave" method="post">
+    <form action="/WebKhuVuiChoi/Muave_c/muave" method="post">
         <div class="container__ticket">
             <div class="grid wide">
                 <div class="btn">
@@ -36,7 +36,7 @@
                     ?>
                             <div class="col l-3">
                                 <div class="ticket">
-                                    <div class="ticket__img" style="background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/<?php echo $row['AnhVe'] ?>);">
+                                    <div class="ticket__img" style="background-image: url(/WebKhuVuiChoi/Public/images/ve_img/<?php echo $row['AnhVe'] ?>);">
                                     </div>
 
                                     <span class="ticket__title">
@@ -82,7 +82,7 @@
                                         }
 
                                         function cong() {
-                                            fetch('http://localhost/WebKhuVuiChoi/Muave_c/muave');
+                                            fetch('/WebKhuVuiChoi/Muave_c/muave');
                                             var index = this.getAttribute('data-index');
                                             var giave = document.getElementById("giave-" + index).innerHTML;
 
@@ -129,22 +129,22 @@
 
                 <div class="ticket__footer">
                     <div class="ticket__footer-img0">
-                        <div class="ticket__footer-img" style="background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/footer1.jpg);">
+                        <div class="ticket__footer-img" style="background-image: url(/WebKhuVuiChoi/Public/images/ve_img/footer1.jpg);">
                         </div>
                     </div>
 
                     <div class="ticket__footer-img1">
                         <div class="ticket__footer-img1-1">
-                            <div class="ticket__footer-img" style="margin-right: 10px; background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/footer3.jpg);">
+                            <div class="ticket__footer-img" style="margin-right: 10px; background-image: url(/WebKhuVuiChoi/Public/images/ve_img/footer3.jpg);">
                             </div>
-                            <div class="ticket__footer-img" style="background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/footer2.jpeg);">
+                            <div class="ticket__footer-img" style="background-image: url(/WebKhuVuiChoi/Public/images/ve_img/footer2.jpeg);">
                             </div>
                         </div>
 
                         <div class="ticket__footer-img1-2">
-                            <div class="ticket__footer-img" style="margin-right: 10px; background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/footer5.jpeg);">
+                            <div class="ticket__footer-img" style="margin-right: 10px; background-image: url(/WebKhuVuiChoi/Public/images/ve_img/footer5.jpeg);">
                             </div>
-                            <div class="ticket__footer-img" style="background-image: url(http://localhost/WebKhuVuiChoi/Public/images/ve_img/footer4.jpeg);">
+                            <div class="ticket__footer-img" style="background-image: url(/WebKhuVuiChoi/Public/images/ve_img/footer4.jpeg);">
                             </div>
                         </div>
                     </div>
