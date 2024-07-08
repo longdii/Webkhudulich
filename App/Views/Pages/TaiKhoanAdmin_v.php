@@ -5,11 +5,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/base.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/grid.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/reponsive.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/ve.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/base.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/grid.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/reponsive.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/ve.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <form action="http://localhost/WebKhuVuiChoi/taikhoanadmin/timkiem" method="post">
+    <form action="/WebKhuVuiChoi/taikhoanadmin/timkiem" method="post">
         <div class="header">
             <ul class="header-list">
                 <li class="header-item">
@@ -80,7 +80,7 @@
                             <td><?php echo $row['DienThoai'] ?></td>
                             <td><?php echo $row['DiaChi'] ?></td>
                             <td>
-                                <a href="http://localhost/WebKhuVuiChoi/taikhoanadmin/xoa/<?php echo $row['MaTaiKhoan'] ?>"><i class="content__table-icon fa-solid fa-trash"></i></a>
+                                <a href="/WebKhuVuiChoi/taikhoanadmin/xoa/<?php echo $row['MaTaiKhoan'] ?>"><i class="content__table-icon fa-solid fa-trash"></i></a>
                             </td>
                         </tr>
                 <?php
