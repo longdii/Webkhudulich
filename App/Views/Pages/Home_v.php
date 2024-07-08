@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/Home.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/Home.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/themify-icons/themify-icons.css">
     <title>Document</title>
 </head>
 
@@ -40,7 +40,7 @@
                     ?>
                             <div class="form-group">
                                 <a href="#" class="sub-form-group">
-                                    <img src="http://localhost/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe'] ?>" alt="">
+                                    <img src="/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe'] ?>" alt="">
                                     <div class="title">
                                         <p class="sub-title"><?php echo $row['TieuDe'] ?></p>
                                         <p class="sub-content"><?php echo $row['MoTa'] ?></p>
@@ -58,7 +58,7 @@
             <div class="sub-content2">
                 <div class="bando-content">
                     <div class="title">Bản Đồ</div>
-                    <a href=""><img src="http://localhost/WebKhuVuiChoi/Public/Images/Screen-Shot-2018-10-18-at-12.43.02.png" alt=""></a>
+                    <a href=""><img src="/WebKhuVuiChoi/Public/Images/Screen-Shot-2018-10-18-at-12.43.02.png" alt=""></a>
                 </div>
                 <div class="tintuc-content">
                     <div class="title">Tin Tức</div>
@@ -72,7 +72,7 @@
                         ?>
                                 <div class="form-group">
                                     <a href="#" class="sub-form-group">
-                                        <img src="http://localhost/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe'] ?>" alt="">
+                                        <img src="/WebKhuVuiChoi/Public/Images/<?php echo $row['AnhVe'] ?>" alt="">
                                         <div class="title">
                                             <p class="sub-title"><?php echo $row['TieuDe'] ?></p>
                                             <p class="sub-content"><?php echo $row['MoTa'] ?></p>
