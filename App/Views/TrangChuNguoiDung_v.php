@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/TrangChuNguoiDung.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/TrangChuNguoiDung.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
     <style>
     #muave>a::before {
-        content: url(http://localhost/WebKhuVuiChoi/Public/Images/ticke.png);
+        content: url(/WebKhuVuiChoi/Public/Images/ticke.png);
         display: inline-block;
         margin-right: 5px;
     }
@@ -40,15 +40,15 @@
         <div class="header-bottom">
             <div class="sub-left">
                 <ul>
-                    <li id="trangchu"><a href="http://localhost/WebKhuVuiChoi/TrangChuNguoiDung">Trang Chủ</a></li>
+                    <li id="trangchu"><a href="/WebKhuVuiChoi/TrangChuNguoiDung">Trang Chủ</a></li>
 
-                    <li><a href="http://localhost/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a></li>
+                    <li><a href="/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a></li>
                 </ul>
             </div>
 
             <div class="sub-icon">
-                <a href="http://localhost/WebKhuVuiChoi/thongtintaikhoan"><img
-                        src="http://localhost/WebKhuVuiChoi/Public/Images/HL.png" alt=""></a>
+                <a href="/WebKhuVuiChoi/thongtintaikhoan"><img
+                        src="/WebKhuVuiChoi/Public/Images/HL.png" alt=""></a>
             </div>
 
             <div class="sub-right">
@@ -56,13 +56,13 @@
                     <li id="tintuc">
                         <a href="">Tin Tức</a>
                         <div id="tintuc-content" class="sub-right-content">
-                            <a href="http://localhost/WebKhuVuiChoi/TinTuc">Tin Nổi Bật</a>
-                            <a href="http://localhost/WebKhuVuiChoi/TinSuKien">Sự Kiện</a>
-                            <a href="http://localhost/WebKhuVuiChoi/TinKhuyenMai">Khuyến Mãi</a>
+                            <a href="/WebKhuVuiChoi/TinTuc">Tin Nổi Bật</a>
+                            <a href="/WebKhuVuiChoi/TinSuKien">Sự Kiện</a>
+                            <a href="/WebKhuVuiChoi/TinKhuyenMai">Khuyến Mãi</a>
                         </div>
                     </li>
                     <li><a href="">_______</a></li>
-                    <li id="muave"><a href="http://localhost/WebKhuVuiChoi/Muave_c">Mua Vé</a></li>
+                    <li id="muave"><a href="/WebKhuVuiChoi/Muave_c">Mua Vé</a></li>
                 </ul>
             </div>
         </div>
@@ -75,13 +75,13 @@
     </div>
 
     <div class="footer"
-        style="background: url(http://localhost/WebKhuVuiChoi/Public/Images/bg-footer.png);background-size: cover;">
+        style="background: url(/WebKhuVuiChoi/Public/Images/bg-footer.png);background-size: cover;">
         <div class="footer-top">
-            <div class="logo"><img src="http://localhost/WebKhuVuiChoi/Public/Images/logo_halong.png" alt=""></div>
+            <div class="logo"><img src="/WebKhuVuiChoi/Public/Images/logo_halong.png" alt=""></div>
             <div class="left">
                 <ul>
                     <li><a href="">Trang Chủ</a></li>
-                    <li><a href="http://localhost/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a></li>
+                    <li><a href="/WebKhuVuiChoi/trainghiemtong">Trải Nghiệm</a></li>
                     <li><a href="">Tin Tức</a></li>
                     <!-- <li><a href="">Dịch vụ</a></li> -->
                 </ul>
