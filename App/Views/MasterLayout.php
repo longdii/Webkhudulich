@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/TrangChu.css">
-    <link rel="stylesheet" href="http://localhost/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/TrangChu.css">
+    <link rel="stylesheet" href="/WebKhuVuiChoi/Public/Css/fonts/themify-icons/themify-icons.css">
     <title>DangNhap</title>
 </head>
 <body>
@@ -18,55 +18,55 @@
                     <ul id="sub-menu">
                         <li>
                             <div class="content" style="border-bottom: 0.1px dashed rgb(209, 209, 209);height: 60px;">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/logo_halong.png" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/logo_halong.png" alt="">
                                 <div><p>Trang Chu</p></div>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <div><img src="http://localhost/WebKhuVuiChoi/Public/Images/site-2.jpg" alt=""></div>
+                                <div><img src="/WebKhuVuiChoi/Public/Images/site-2.jpg" alt=""></div>
                                <div><p>Asia Park</p></div>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/DJI_0971-1.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/DJI_0971-1.jpg" alt="">
                                 <p>Ba Na Hills</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/site-1.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/site-1.jpg" alt="">
                                 <p>Ba Den Mountain</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/site2.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/site2.jpg" alt="">
                                 <p>Hon Thom</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/banner1.png" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/banner1.png" alt="">
                                 <p>Ha Long</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/001.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/001.jpg" alt="">
                                 <p>Fansipan Legend</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/277674793_507229567554731_3483001761365827116_n.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/277674793_507229567554731_3483001761365827116_n.jpg" alt="">
                                 <p>Cat Ba</p>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <img src="http://localhost/WebKhuVuiChoi/Public/Images/KTS-1.jpg" alt="">
+                                <img src="/WebKhuVuiChoi/Public/Images/KTS-1.jpg" alt="">
                                 <p>Kiss The Stars</p>
                             </div>
                         </li>
@@ -76,7 +76,7 @@
             </div>
 
             <div class="logo">
-               <img src="http://localhost/WebKhuVuiChoi/Public/Images/logo_hanglong2.png" alt="">
+               <img src="/WebKhuVuiChoi/Public/Images/logo_hanglong2.png" alt="">
             </div>
         </div>
         </div>
@@ -104,14 +104,14 @@
                         </div>
                     </div>
                     <div class="form-icon">
-                        <img src="http://localhost/WebKhuVuiChoi/Public/Images/ic12.png" alt="">
-                        <img src="http://localhost/WebKhuVuiChoi/Public/Images/ic14.png" alt="">
+                        <img src="/WebKhuVuiChoi/Public/Images/ic12.png" alt="">
+                        <img src="/WebKhuVuiChoi/Public/Images/ic14.png" alt="">
                     </div>
                 </div>
               
                 <div class="footer-bottom">
                     <p>© Bản quyền website thuộc về Sun World</p>
-                    <img src="http://localhost/WebKhuVuiChoi/Public/Images/logo-2.png" alt="">
+                    <img src="/WebKhuVuiChoi/Public/Images/logo-2.png" alt="">
                 </div>
             </div>
     </div>
